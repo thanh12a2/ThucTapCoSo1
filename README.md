@@ -8,16 +8,11 @@ npm install </pre>
 
 5. Chạy project
 - Mở 2 terminal:
-
    +) Terminal 1: Chạy backend
-
-</pre> cd backend
+<pre> cd backend
  node server.js </pre>
- 
    +) Terminal 2: Chạy frontend
-
 <pre> cd frontend
-
 npm start </pre>
 - Lưu ý:
 
