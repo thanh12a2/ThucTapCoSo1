@@ -13,6 +13,7 @@ npm install </pre>
 
 </pre> cd backend
  node server.js </pre>
+ 
    +) Terminal 2: Chạy frontend
 
 <pre> cd frontend
