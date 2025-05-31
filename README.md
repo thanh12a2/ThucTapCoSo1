@@ -1,9 +1,7 @@
 Hướng dẫn cài đặt & chạy project
 1. Cài đặt dependencies cho frontend
-
-cd D:\movieapp\movieapp-main
-npm install
-
+<pre> ```cd D:\movieapp\movieapp-main
+npm install ``` </pre>
 3. Cài đặt dependencies cho backend
 cd D:\movieapp
 
