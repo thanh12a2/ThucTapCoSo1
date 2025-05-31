@@ -1,26 +1,25 @@
 Hướng dẫn cài đặt & chạy project
 1. Cài đặt dependencies cho frontend
-<pre> ```cd D:\movieapp\movieapp-main
-npm install ``` </pre>
+<pre> cd D:\movieapp\movieapp-main
+npm install </pre>
 3. Cài đặt dependencies cho backend
-cd D:\movieapp
+<pre> cd D:\movieapp
+npm install </pre>
 
-npm install
 5. Chạy project
-Mở 2 terminal:
+- Mở 2 terminal:
 
-Terminal 1: Chạy backend
+   +) Terminal 1: Chạy backend
 
-cd backend
+</pre> cd backend
+ node server.js </pre>
+   +) Terminal 2: Chạy frontend
 
-node server.js
-Terminal 2: Chạy frontend
+<pre> cd frontend
 
-cd frontend
+npm start </pre>
+- Lưu ý:
 
-npm start
-Lưu ý:
++) Đảm bảo bạn đã cài đặt Node.js và npm trên máy.
 
-Đảm bảo bạn đã cài đặt Node.js và npm trên máy.
-
-Nếu có file .env.example thì copy thành .env và điền các biến môi trường cần thiết (nếu có).
++) Nếu có file .env.example thì copy thành .env và điền các biến môi trường cần thiết (nếu có).
